@@ -1,0 +1,42 @@
+{
+  "packageName": "tariswap-tapplet",
+  "version": "0.0.1",
+  "displayName": "TariSwap tapplet for testing",
+  "status": "TEST",
+  "category": "TEST",
+  "author": {
+    "name": "MCozhusheck",
+    "website": "https://api.github.com/users/MCozhusheck/repos"
+  },
+  "about": {
+    "summary": "TariSwap",
+    "description": "This is the simple example of a tariswap tapplet for testing purposes."
+  },
+  "design": {
+    "logoPath": "src/images/logo.svg",
+    "backgroundPath": "src/images/background.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "",
+    "codeowners": [
+      "@MCozhusheck"
+    ]
+  },
+  "source": {
+    "location": {
+      "npm": {
+        "packageName": "tariswap-tapplet",
+        "registry": "https://registry.npmjs.org/tariswap-tapplet",
+        "distTarball": "https://registry.npmjs.org/tariswap-tapplet/-/tariswap-tapplet-0.0.1.tgz",
+        "integrity": "sha512-qWtb4RVVRlFPon8AwWYHYTq4fIXZBOsm36zLiU5tgaaQ9Crtrb1oMAWtZ7riIUT7MokU5J++QcOFRfwKtjEzRg=="
+      }
+    }
+  },
+  "supportedChain": [
+    "MAINNET",
+    "STAGENET",
+    "NEXTNET"
+  ],
+  "manifestVersion": "0.0.1"
+}
