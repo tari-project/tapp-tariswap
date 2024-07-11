@@ -1,14 +1,14 @@
 {
-  "name": "tapplet-example",
-  "version": "0.0.3",
+  "name": "tariswap-tapplet",
+  "version": "0.0.1",
   "type": "module",
-  "description": "Tapplet example",
+  "description": "TariSwap tapplet example",
   "main": "dist/index.html",
   "author": "",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MCozhusheck/tapplet-example.git"
+    "url": "git+https://github.com/MCozhusheck/tariswap-tapplet.git"
   },
   "scripts": {
     "dev": "vite",
