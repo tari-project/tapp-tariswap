@@ -1,0 +1,46 @@
+{
+  "name": "tapplet-example",
+  "version": "0.0.3",
+  "type": "module",
+  "description": "Tapplet example",
+  "main": "dist/index.html",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCozhusheck/tapplet-example.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@tariproject/tarijs": "https://gitpkg.now.sh/tari-project/tari.js?main&scripts.postinstall=npm%20run%20build-tsc",
+    "@tariproject/typescript-bindings": "https://gitpkg.now.sh/tari-project/tari-dan/bindings?development&scripts.postinstall=npm%20run%20tsc",
+    "@tariproject/wallet_jrpc_client": "https://gitpkg.now.sh/tari-project/tari-dan/clients/javascript/wallet_daemon_client?development&scripts.postinstall=npm%20run%20build",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^20.12.6",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.7",
+    "vite-plugin-node-polyfills": "0.17.0"
+  }
+}
